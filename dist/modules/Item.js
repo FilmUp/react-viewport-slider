@@ -39,8 +39,7 @@ var Item = function Item(props) {
   return _react2['default'].createElement(
     'div',
     _extends({}, propsClone, { className: classes, style: Object.assign(style, props.itemStyle) }),
-    props.children,
-    props.hideButton ? null : renderButton()
+    props.children
   );
 };
 
