@@ -82,7 +82,7 @@ export default class Slider extends Component {
             <div ref={`slide-${ index }`} key={index}>
               <Item {...child.props}
                 index={index}
-                hideButton={index === this.props.children.length}
+                hideButton={true}
                 onClick={this.setActive}>
                 {child}
               </Item>
