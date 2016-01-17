@@ -34,7 +34,6 @@ const Item = (props) => {
   return (
     <div {...propsClone} className={classes} style={Object.assign(style, props.itemStyle)}>
       {props.children}
-      {props.hideButton ? null : renderButton()}
     </div>
   );
 
