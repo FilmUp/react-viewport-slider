@@ -33,11 +33,7 @@ var Item = function Item(props) {
   delete propsClone.children;
 
   var renderButton = function renderButton() {
-    return _react2['default'].createElement(
-      _Button2['default'],
-      { index: props.index, onClick: props.onClick },
-      props.buttonLabel
-    );
+    
   };
 
   return _react2['default'].createElement(
